@@ -1,0 +1,137 @@
+[
+  {
+    "id": "event_1",
+    "name": "Indigo League Finals",
+    "date": "2025-07-15",
+    "location": "Indigo Plateau",
+    "imageUrl": "https://wallpapers.com/images/featured-full/all-pokemon-pictures-bh730s8zr74xsc2p.jpg",
+    "type": "TRAINER_FIGHT",
+    "isHighlighted": true,
+    "trainers": [
+      {
+        "name": "Ash",
+        "pokemons": [
+          "pikachu",
+          "charizard",
+          "bulbasaur"
+        ]
+      },
+      {
+        "name": "Gary",
+        "pokemons": [
+          "eevee",
+          "alakazam",
+          "nidoking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "event_2",
+    "name": "Ho-oh's Yearly Indigo Crossing",
+    "date": "2025-07-17",
+    "location": "Indigo Plateau",
+    "imageUrl": "https://wallpapers.com/images/featured-full/all-pokemon-pictures-bh730s8zr74xsc2p.jpg",
+    "type": "WORLD_EVENT",
+    "isHighlighted": false,
+    "trainers": [
+      {
+        "name": "Ash",
+        "pokemons": [
+          "pikachu",
+          "charizard",
+          "bulbasaur"
+        ]
+      },
+      {
+        "name": "Gary",
+        "pokemons": [
+          "eevee",
+          "alakazam",
+          "nidoking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "event_3",
+    "name": "Dialga & Palkia Time-Space Convergence",
+    "date": "2025-07-19",
+    "location": "Spear Pillar",
+    "imageUrl": "https://wallpapers.com/images/featured-full/all-pokemon-pictures-bh730s8zr74xsc2p.jpg",
+    "type": "WORLD_EVENT",
+    "isHighlighted": false,
+    "trainers": [
+      {
+        "name": "Misty",
+        "pokemons": [
+          "starmie",
+          "psyduck",
+          "togepi"
+        ]
+      },
+      {
+        "name": "Brock",
+        "pokemons": [
+          "onix",
+          "geodude",
+          "vulpix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "event_3",
+    "name": "Dialga & Palkia Time-Space Convergence",
+    "date": "2025-07-19",
+    "location": "Spear Pillar",
+    "imageUrl": "https://wallpapers.com/images/featured-full/all-pokemon-pictures-bh730s8zr74xsc2p.jpg",
+    "type": "WORLD_EVENT",
+    "isHighlighted": false,
+    "trainers": [
+      {
+        "name": "Misty",
+        "pokemons": [
+          "starmie",
+          "psyduck",
+          "togepi"
+        ]
+      },
+      {
+        "name": "Brock",
+        "pokemons": [
+          "onix",
+          "geodude",
+          "vulpix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "event_4",
+    "name": "Legendary Birds Showdown",
+    "date": "2025-07-20",
+    "location": "Cerulean Cave",
+    "imageUrl": "https://wallpapers.com/images/featured-full/all-pokemon-pictures-bh730s8zr74xsc2p.jpg",
+    "type": "TRAINER_FIGHT",
+    "isHighlighted": false,
+    "trainers": [
+      {
+        "name": "Ash",
+        "pokemons": [
+          "pikachu",
+          "charizard",
+          "bulbasaur"
+        ]
+      },
+      {
+        "name": "Misty",
+        "pokemons": [
+          "starmie",
+          "psyduck",
+          "togepi"
+        ]
+      }
+    ]
+  }
+]

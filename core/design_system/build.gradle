@@ -1,0 +1,10 @@
+apply from: "$rootProject.projectDir/common/library-module.gradle"
+apply from: "$rootProject.projectDir/common/dependencies.gradle"
+android {
+    namespace 'com.android.reydix.core.design_system'
+}
+
+dependencies {
+    implementation project(":core:resources")
+
+}

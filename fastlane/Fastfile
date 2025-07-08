@@ -1,0 +1,33 @@
+default_platform(:android)
+
+ platform :android do
+   desc "Run tests and distribute build to Firebase testers"
+   lane :firebase_test_release do
+     # 1) Clean project (optional)
+     gradle(
+       task: "clean"
+     )
+
+    # 2) Run tests
+     gradle(
+       task: "test",
+       build_type: "Debug"
+     )
+
+     # 3) Assemble Release build (only if tests pass)
+     gradle(
+       task: "assemble",
+       build_type: "Release",
+     )
+
+     # 4) Distribute to Firebase
+     firebase_app_distribution(
+       app: ENV["FIREBASE_APP_ID"],
+       testers: ENV["FIREBASE_TESTERS"],
+       release_notes: "New beta build via Fastlane",
+       firebase_cli_path: "/usr/local/bin/firebase",
+       apk_path: "app/build/outputs/apk/release/app-release-unsigned.apk",
+       service_credentials_file: "fastlane/service_account.json"
+     )
+   end
+ end

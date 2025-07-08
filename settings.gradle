@@ -21,3 +21,20 @@ dependencyResolutionManagement {
 
 rootProject.name = "Reydix"
 include ':app'
+include ':core:resources'
+include ':core:common'
+include ':core:ui'
+include ':core:network'
+include ':core:data'
+include ':core:domain'
+include ':core:design_system'
+
+include ':navigation'
+
+include ':feature:main_screen'
+include ':feature:details_screen'
+
+include ':core:tests'
+include ':feature:tests'
+
+

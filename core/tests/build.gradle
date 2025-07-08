@@ -1,0 +1,13 @@
+apply from: "$rootProject.projectDir/common/library-module.gradle"
+apply from: "$rootProject.projectDir/common/dependencies.gradle"
+android {
+    namespace 'com.android.reydix.core.tests'
+}
+
+dependencies {
+    testImplementation project(":core:network")
+    testImplementation project(":core:domain")
+    testImplementation project(":core:data")
+    testImplementation project(":core:resources")
+    testImplementation project(":core:common")
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Reydix</string>
+    <string name="btn_connect_action">CONNECT</string>
+    <string name="weekly_section_title">This week</string>
+    <string name="popular_pokemons_title">Popular Pokemons</string>
+    <string name="events_fail">Failed to fetch events</string>
+    <string name="pokemons_fetch_fail">Failed to fetch popular pokemons</string>
+    <string name="maain_data_fail">Failed to fetch main data</string>
+    <string name="generioc_error_msg">Something went wrong</string>
+    <string name="feautured_event_fail">Featured event failed:</string>
+    <string name="event_fail">Events failed</string>
+    <string name="popular_pokemons_fail">Popular pokemons failed</string>
+    <string name="connected">Connected with</string>
+</resources>

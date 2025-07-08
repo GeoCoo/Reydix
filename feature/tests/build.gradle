@@ -1,0 +1,16 @@
+
+apply from: "$rootProject.projectDir/common/library-module.gradle"
+apply from: "$rootProject.projectDir/common/dependencies.gradle"
+android {
+    namespace 'com.android.reydix.feature.tests'
+}
+
+dependencies {
+    testImplementation project(":core:domain")
+    testImplementation project(':feature:details_screen')
+    testImplementation project(':feature:main_screen')
+    testImplementation project(":core:ui")
+    testImplementation project(":core:resources")
+    testImplementation project(":core:common")
+
+}

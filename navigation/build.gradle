@@ -1,0 +1,13 @@
+apply from: "$rootProject.projectDir/common/library-module.gradle"
+apply from: "$rootProject.projectDir/common/dependencies.gradle"
+
+android {
+    namespace 'com.android.reydix.navigation'
+}
+
+dependencies {
+    implementation project(':feature:main_screen')
+    implementation project(":feature:details_screen")
+    implementation project(":core:common")
+    implementation project(":core:domain")
+}

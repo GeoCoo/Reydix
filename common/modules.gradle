@@ -1,0 +1,15 @@
+dependencies {
+    //Application modules
+    implementation project(':core:network')
+    implementation project(':core:data')
+    implementation project(':core:domain')
+    implementation project(':core:resources')
+    implementation project(':core:common')
+    implementation project(':core:ui')
+    implementation project(':core:design_system')
+
+    implementation project(':navigation')
+
+    implementation project(':feature:main_screen')
+    implementation project(':feature:details_screen')
+}
